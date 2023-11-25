@@ -1,7 +1,7 @@
 ## community
 
 ## 资料
-https://spring.id/guides
+https://spring.io/guides
 
 
 ## 工具
