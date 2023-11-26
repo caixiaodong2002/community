@@ -45,7 +45,6 @@ public class GithubProvider {
             Response response = sslUtil.getUnsafeOkHttpClient().newCall(request).execute();
             String string= response.body().string();
             GithubUser githubUser = JSON.parseObject(string, GithubUser.class);
-            System.out.println(githubUser);
             return githubUser;
         } catch (IOException e) {
             e.printStackTrace();
